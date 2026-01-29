@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import seaborn as sns
 
 ## Creating the nagivation Bar
@@ -81,3 +81,4 @@ elif page == 'Graphical Insights':
 
     else:
         st.warning('Please upload a dataset first in the Data Upload section.')
+
