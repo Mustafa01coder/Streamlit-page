@@ -69,17 +69,10 @@ elif page == 'Graphical Insights':
         st.bar_chart(profit_by_region)
 
         # ---------------- GRAPH 3 ----------------
-        st.subheader(' Sales vs Profit')
-
-        fig, ax = plt.subplots()
-        ax.scatter(df['Sales'], df['Profit'])
-        ax.set_xlabel('Sales')
-        ax.set_ylabel('Profit')
-        ax.set_title('Sales vs Profit')
-
-        st.pyplot(fig)
+        
 
     else:
         st.warning('Please upload a dataset first in the Data Upload section.')
+
 
 
