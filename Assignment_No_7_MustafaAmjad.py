@@ -68,11 +68,9 @@ elif page == 'Graphical Insights':
 
         st.bar_chart(profit_by_region)
 
-        # ---------------- GRAPH 3 ----------------
-        st.line_chart(df)
-
     else:
         st.warning('Please upload a dataset first in the Data Upload section.')
+
 
 
 
